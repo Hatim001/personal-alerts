@@ -76,7 +76,7 @@ def get_available(classes):
     for c in classes:
         spots = str(c.get("Spots", "")).strip()
 
-        if spots.lower() == "full":
+        if not spots or spots.lower() == "full":
             continue
 
         available.append({
