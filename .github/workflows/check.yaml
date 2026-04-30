@@ -2,7 +2,7 @@ name: Check Canada Games Centre Spots
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
