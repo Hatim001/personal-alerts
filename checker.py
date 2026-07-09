@@ -10,7 +10,7 @@ CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 URL = "https://halifaxregionalmunicipality.perfectmind.com/36011/Clients/BookMe4BookingPagesV2/ClassesV2"
 
-# Add more sports here anytime
+# Add more sports here
 SPORTS = {
     "Badminton": "fee5a20c-f5c3-466d-9c83-e15fb01f2a50",
     "Pickleball": "3dd563f5-8b1e-4afc-aee3-cd7b9ee9ebdb"
